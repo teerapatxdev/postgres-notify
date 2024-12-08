@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "services/*": ["src/v2/services/*"],
+      "models/*": ["src/v2/models/*"],
+      "dto/*": ["src/v2/dto/*"],
+      "constants/*": ["src/v2/constants/*"],
+      "json/*": ["src/v2/json/*"],
+      "commands/*": ["src/v2/commands/*"],
+    }
+  }
+}
